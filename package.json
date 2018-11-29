@@ -1,7 +1,19 @@
 {
-  "name": "prototyping",
+  "name": "@gloomytofu/protoman",
   "version": "0.1.0",
-  "private": true,
+  "main": "./src/lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gloomyTofu/protoman.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "react",
+    "native-modules",
+    "react-component"
+  ],
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -21,5 +33,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "author": "Carie Phon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gloomyTofu/protoman/issues"
+  },
+  "homepage": "https://github.com/gloomyTofu/protoman/#readme"
 }
