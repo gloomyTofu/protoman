@@ -2,6 +2,7 @@
   "name": "@gloomytofu/protoman",
   "version": "0.1.0",
   "main": "./src/lib/index.js",
+  "homepage": "https://gloomyTofu.github.io/protoman/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gloomyTofu/protoman.git"
@@ -15,6 +16,7 @@
     "react-component"
   ],
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1",
@@ -24,6 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,6 +46,5 @@
   },
   "bugs": {
     "url": "https://github.com/gloomyTofu/protoman/issues"
-  },
-  "homepage": "https://github.com/gloomyTofu/protoman/#readme"
+  }
 }
